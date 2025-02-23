@@ -1,0 +1,133 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ButtonAdapter	KEYWORD1
+CharacterDisplayInterface	KEYWORD1
+CharacterDisplayRenderer	KEYWORD1
+DisplayInterface	KEYWORD1
+InputInterface	KEYWORD1
+ItemBack	KEYWORD1
+ItemCommand	KEYWORD1
+ItemFloatRange	KEYWORD1
+ItemInput	KEYWORD1
+ItemInputCharset	KEYWORD1
+ItemIntRange	KEYWORD1
+ItemList	KEYWORD1
+ItemRangeBase	KEYWORD1
+ItemSubMenu	KEYWORD1
+ItemToggle	KEYWORD1
+KeyboardAdapter	KEYWORD1
+LcdMenu	KEYWORD1
+LiquidCrystalAdapter	KEYWORD1
+LiquidCrystal_I2CAdapter	KEYWORD1
+MenuItem	KEYWORD1
+MenuRenderer	KEYWORD1
+MenuScreen	KEYWORD1
+SSD1803A_I2CAdapter	KEYWORD1
+SimpleRotaryAdapter	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+abortCharEdit	KEYWORD2
+back	KEYWORD2
+backspace	KEYWORD2
+begin	KEYWORD2
+changeScreen	KEYWORD2
+clear	KEYWORD2
+clearBlinker	KEYWORD2
+commitCharEdit	KEYWORD2
+concat	KEYWORD2
+createChar	KEYWORD2
+decrement	KEYWORD2
+draw	KEYWORD2
+drawBlinker	KEYWORD2
+drawChar	KEYWORD2
+enter	KEYWORD2
+executeCommand	KEYWORD2
+getCallback	KEYWORD2
+getCallbackInt	KEYWORD2
+getCallbackStr	KEYWORD2
+getCurrentValue	KEYWORD2
+getDisplayValue	KEYWORD2
+getItemIndex	KEYWORD2
+getItems	KEYWORD2
+getText	KEYWORD2
+getTextOff	KEYWORD2
+getTextOn	KEYWORD2
+getValue	KEYWORD2
+getViewSize	KEYWORD2
+handleIdle	KEYWORD2
+handleReceived	KEYWORD2
+hasLastChar	KEYWORD2
+hide	KEYWORD2
+increment	KEYWORD2
+initCharEdit	KEYWORD2
+inline	KEYWORD2
+isOn	KEYWORD2
+left	KEYWORD2
+observe	KEYWORD2
+printLog	KEYWORD2
+process	KEYWORD2
+remove	KEYWORD2
+reset	KEYWORD2
+right	KEYWORD2
+saveLastChar	KEYWORD2
+selectNext	KEYWORD2
+selectPrevious	KEYWORD2
+setBacklight	KEYWORD2
+setCurrentValue	KEYWORD2
+setCursor	KEYWORD2
+setIsOn	KEYWORD2
+setItemIndex	KEYWORD2
+setText	KEYWORD2
+setValue	KEYWORD2
+show	KEYWORD2
+showNextChar	KEYWORD2
+showPreviousChar	KEYWORD2
+substring	KEYWORD2
+toggle	KEYWORD2
+typeChar	KEYWORD2
+uint8_t	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BACK	LITERAL1
+BACKSPACE	LITERAL1
+BS	LITERAL1
+C2_CSI_TERMINAL_MAX	LITERAL1
+C2_CSI_TERMINAL_MIN	LITERAL1
+CLEAR	LITERAL1
+CR	LITERAL1
+CSI_BUFFER_SIZE	LITERAL1
+DEL	LITERAL1
+DISPLAY_TIMEOUT	LITERAL1
+DOUBLE_PRESS_THRESHOLD	LITERAL1
+DOWN	LITERAL1
+ENTER	LITERAL1
+ESC	LITERAL1
+ITEM_BACK	LITERAL1
+ITEM_BASIC	LITERAL1
+ITEM_COMMAND	LITERAL1
+ITEM_FLOAT_RANGE	LITERAL1
+ITEM_INPUT	LITERAL1
+ITEM_INPUT_CHARSET	LITERAL1
+ITEM_INT_RANGE	LITERAL1
+ITEM_STRING_LIST	LITERAL1
+ITEM_SUBMENU	LITERAL1
+ITEM_TOGGLE	LITERAL1
+LEFT	LITERAL1
+LF	LITERAL1
+LONG_PRESS_DURATION	LITERAL1
+MENU_SCREEN	LITERAL1
+RIGHT	LITERAL1
+THRESHOLD	LITERAL1
+UP	LITERAL1

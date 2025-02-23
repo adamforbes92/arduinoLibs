@@ -1,0 +1,24 @@
+TODO list for Linbus Beeper
+
+SCHEMATIC
+* Tie the lin bus TX pin to the MCU (for future applications, acting as a bus node.)
+* Add a blue power-n led.
+
+LAYOUT
+* Change header pads to round x 0.07 diameter (see injector)
+* Increase the top border by 20mils to match the border of the right andgle header
+* Change the location of the linbus pin names to make them visible with right angle headers.
+* Reduce tcream at resonator pads (copy from injector)
+
+SOFTWARE
+* Reduce the solder paste amount on the resonator's pads (copy from injector)
+* Propogate io_pins.h cle/sei wrapper from the Injector.
+* Generate an updated .hex file with the latest firmware (currently does
+  not reflect io_pin.h race condition fix).
+
+MISCELLANEOUS
+* Rename this file to TODO.md (see Injector).
+
+
+
+

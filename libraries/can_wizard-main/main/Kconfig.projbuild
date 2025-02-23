@@ -1,0 +1,57 @@
+menu "Can_wizard Configuration"
+
+    orsource "Kconfig.env_caps"
+
+    config CAN_RX_GPIO
+        int "CAN RX GPIO number"
+        range ENV_GPIO_RANGE_MIN ENV_GPIO_OUT_RANGE_MAX
+        default 9
+        help
+            GPIO number (IOxx) to connect ESP to CAN transceiver.
+            Some GPIOs are used for other purposes (USB, flash connections, etc.) and cannot be used for CAN.
+
+    config CAN_TX_GPIO
+        int "CAN TX GPIO number"
+        range ENV_GPIO_RANGE_MIN ENV_GPIO_OUT_RANGE_MAX
+        default 8
+        help
+            GPIO number (IOxx) to connect ESP to CAN transceiver.
+            Some GPIOs are used for other purposes (USB, flash connections, etc.) and cannot be used for CAN.
+
+    config CAN_TASK_PRIORITY
+        int "CAN task priority"
+        range 0 22
+        default 5
+        help
+            A priority of FreeRTOS task can_task. See more about tasks priorities in FreeRTOS documentation.
+
+    config CONSOLE_TX_PRIORITY
+        int "Console task TX priority"
+        range 0 22
+        default 2
+        help
+            A priority of FreeRTOS task can_task_tx. See more about tasks priorities in FreeRTOS documentation.
+
+    config CONSOLE_INT_PRIORITY
+        int "Console task interactive priority"
+        range 0 22
+        default 1
+        help
+            A priority of FreeRTOS task can_task_interactive. See more about tasks priorities in FreeRTOS documentation.
+
+    config CONSOLE_MAX_CMDLINE_LENGTH
+        int "Console max cmdline length"
+        range 100 512
+        default 256
+
+    config CONSOLE_MAX_CMDLINE_ARGS 
+        int "Console max cmdline args"
+        range 1 32
+        default 8
+
+    config CAN_MAX_SMARTFILTERS_NUM
+        int "Max number of smartfilters"
+        range 2 20
+        default 10
+
+endmenu
