@@ -2,10 +2,10 @@
 #define connect_to_module 0x01
 
 // Select your target module speed:
-#define module_baud_rate 10400
+//#define module_baud_rate 10400
 
 // If you don't define a baud rate above, connecting will be attempted at the following speeds:
-//const unsigned long possible_baud_rates[] = {10400, 9600, 4800};
+const unsigned long possible_baud_rates[] = {10400, 10400, 10400};
 
 // Enable/disable printing library debug information on the Serial Monitor.
 // You may change the debug level in "KLineKWP1281Lib.h".
@@ -41,18 +41,19 @@
   #define TX_pin 14
 */
 
-
+// ESP32 (can use Serial1/Serial2)
+/*
   #define K_line Serial2
   #define TX_pin 17
   #define RX_pin 16
-
+*/
 
 // ESP32-C6 (can use Serial1)
-/*
+
   #define K_line Serial1
   #define TX_pin 17
   #define RX_pin 16
-*/
+
 
 // ESP8266 (no additional hardware serial ports, must use software serial)
 // You can change the RX and TX pins to any unused pin, don't forget to also change the TX_pin define below.

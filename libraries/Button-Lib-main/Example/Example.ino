@@ -1,9 +1,9 @@
 #include <ButtonLib.h>
 
 
-buttonClass button1(3,false);
-buttonClass button2(6,false);
-buttonClass button3(7,false);
+buttonClass button1(36,false);
+buttonClass button2(39,false);
+buttonClass button3(34,false);
 
 
 void func1(){
@@ -19,7 +19,7 @@ void func3(){
 }
 
 void setup() {
-  Serial.begin(8600);
+  Serial.begin(9600);
 
   //attachRisingEdge, called on a rising edge
   //attachFallingEdge, called on a falling edge

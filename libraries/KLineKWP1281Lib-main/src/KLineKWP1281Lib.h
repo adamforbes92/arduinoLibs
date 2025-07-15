@@ -157,7 +157,7 @@ class KLineKWP1281Lib
     unsigned long blockDelay = 10;
 
     // How many milliseconds to wait for receiving a response during initialization
-    unsigned long initResponseTimeout = 600;
+    unsigned long initResponseTimeout = 1000;
     // How many milliseconds to wait for receiving a complement when sending bytes in a block
     unsigned long complementResponseTimeout = 50;
     // How many milliseconds to wait for receiving the echo to a byte that was sent

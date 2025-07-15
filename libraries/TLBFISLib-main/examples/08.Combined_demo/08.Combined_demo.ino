@@ -90,7 +90,7 @@ void loop() {
   Serial.println(ignitionState);
 
   FIS.update();
-  if (ignitionState) {
+  if (1) {
 
     //Only display a page once, when it changes.
     if (page != prev_page) {

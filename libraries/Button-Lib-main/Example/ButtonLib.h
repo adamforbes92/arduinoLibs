@@ -44,10 +44,10 @@ class buttonClass{
 
     private:
         int _pin; // hardware pin number.
-        unsigned int _debounceMillis = 50; // number of millis for debounce times.
+        unsigned int _debounceMillis = 200; // number of millis for debounce times.
         unsigned int _holdMillis = 1000; // number of millis to count as hold.
-        unsigned int _doubleClickMillis = 200; // max number of millis between rising edges of a double click.
-        unsigned int _clickLengthMillis = 200; // max number of millis button can be held to count as a click
+        unsigned int _doubleClickMillis = 500; // max number of millis between rising edges of a double click.
+        unsigned int _clickLengthMillis = 500; // max number of millis button can be held to count as a click
         int _buttonPressed;
 
         int _state = 0; // state can either be 0 or 1, 0 = button is not pressed, 1 button is pressed

@@ -6,7 +6,7 @@ void beginFunction(unsigned long baud)
   K_line.begin(baud, SERIAL_8N1, RX_pin, TX_pin);
 #else
   // For other boards (if RX_pin is not defined), use the standard function.
-  K_line.begin(baud, SERIAL_8N1, RX_pin, TX_pin);
+  K_line.begin(baud);
 #endif
 }
 

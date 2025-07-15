@@ -256,7 +256,7 @@ KLineKWP1281Lib::executionStatus KLineKWP1281Lib::attemptConnect(uint8_t module,
     executionStatus status = read_identification(request_extra_identification);
 
     // Enable automatically reconnecting upon error, or calling the custom error function.
-    error_function_allowed = false;
+    error_function_allowed = true;
 
     // Return what read_identification() returned.
     return status;
