@@ -1,0 +1,21 @@
+{
+    "name": "InterruptButton",
+    "description": "Interrupt driven events for hardware buttons",
+    "keywords": "ESP32, ïnterrupt, button, event, action, bind, synchronous, asynchronous, RTOS",
+    "authors": [
+        {
+            "name": "R. Mingis",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+         "url": "https://github.com/rwmingis/InterruptButton"
+    },
+    "version": "2.0.2",
+    "frameworks": "Arduino",
+    "platforms": ["espressif32"],
+    "examples": [
+        "examples/*.ino"
+    ]
+}

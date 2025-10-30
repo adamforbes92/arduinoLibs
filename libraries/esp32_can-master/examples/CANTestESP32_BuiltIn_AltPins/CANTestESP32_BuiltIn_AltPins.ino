@@ -25,9 +25,9 @@ void setup() {
 
   Serial.println("Initializing ...");
 
-  //pinMode(GPIO_NUM_16, OUTPUT);
-  //digitalWrite(GPIO_NUM_16, LOW); //enable CAN transceiver
-  CAN0.setCANPins(GPIO_NUM_14, GPIO_NUM_13);
+  pinMode(GPIO_NUM_16, OUTPUT);
+  digitalWrite(GPIO_NUM_16, LOW); //enable CAN transceiver
+  CAN0.setCANPins(GPIO_NUM_4, GPIO_NUM_5);
   CAN0.begin(500000);
 
   Serial.println("Ready ...!");
