@@ -107,13 +107,13 @@ public:
         xSemaphoreGive(ControlsSemaphore);
 #endif // def ESP32
 	}
-    unsigned int jsonUpdateDocumentSize = 2000;
+    unsigned int jsonUpdateDocumentSize = 8000;
 #ifdef ESP8266
     unsigned int jsonInitialDocumentSize = 2000;
     unsigned int jsonChunkNumberMax = 5;
 #else
     unsigned int jsonInitialDocumentSize = 8000;
-    unsigned int jsonChunkNumberMax = 0;
+    unsigned int jsonChunkNumberMax = 4;
 #endif
     bool sliderContinuous = false;
     void onWsEvent(AsyncWebSocket* server, AsyncWebSocketClient* client, AwsEventType type, void* arg, uint8_t* data, size_t len);
