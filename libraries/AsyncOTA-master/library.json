@@ -1,0 +1,33 @@
+{
+    "name": "AsyncOTA",
+    "version": "1.0.0",
+    "keywords": "ota, over-the-air, firmware, flash, ESP32",
+    "description": "Asynchronous over-the-air (OTA) firmware updates for ESP32.",
+    "homepage": "https://github.com/circuitcode/AsyncOTA",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/circuitcode/AsyncOTA.git"
+    },
+    "authors": [
+        {
+            "name": "Andrea Sessa",
+            "maintanier": true
+        }
+    ],
+    "license": "MIT",
+    "framworks": "arduino",
+    "platforms": "espressif32",
+    "headers": [
+        "AsyncOTA.h"
+    ],
+    "export": {
+        "include": [
+            "examples",
+            "src",
+            "library.json",
+            "library.properties",
+            "LICENSE",
+            "README.md"
+        ]
+    }
+}
